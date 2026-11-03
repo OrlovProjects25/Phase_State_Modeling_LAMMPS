@@ -10,6 +10,9 @@ Using the probabilities at different temperatures for the material to become a l
 The code is written on LAMMPS internal language.
 
 To get the files for specific temperatures (how system's energy per atom changes over time), run 'runMod.sh'
+The files for specific temperatures can be viewed in "Temperatures"
+The graphs for the simulations of temperatures can be viewed in "Graphs"
+The code for modeling the potential energies for the lines and the excel table can be seen
 
 To get the graphs, run Make_graphs.py
 
