@@ -9,10 +9,3 @@ for k in {1..10}; do
     done
 done
 
-cd results
-sed -i '/^#/d' *.profile
-echo "filename,timestep,pe" > ../AllEnergies.csv
-for f in *.profile; do
-    awk -v fname="$f" '{print fname "," $1 "," $2}' "$f" >> ../AllEnergies.csv
-done
-cd ..
