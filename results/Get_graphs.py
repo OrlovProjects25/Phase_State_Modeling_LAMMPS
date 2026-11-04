@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 
-j = 0
+
 
 
 
@@ -84,8 +84,8 @@ def make(temperatures, last, it):
           plt.close()
 
 
-temperatures = [i for i in range(920, 931, 2)]
+temperatures = [i for i in range(920, 931, 2)] + [915, 935]
 make(temperatures, 11, 2)
-temperatures = [905, 910, 915, 935, 940, 945]
+temperatures = [905, 910, 940, 945]
 make(temperatures, 7, 1)
 print(f'\nDone')
