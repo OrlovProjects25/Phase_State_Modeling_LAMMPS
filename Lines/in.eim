@@ -6,7 +6,7 @@ region          mybox block 0 4 0 4 -4 4 units lattice
 create_box      1 mybox
 create_atoms    1 region mybox
 pair_style      eam/fs
-pair_coeff      * * Al1.eam.fs Al
+pair_coeff      * * ../Al1.eam.fs Al
 neighbor        0.3 bin
 neigh_modify    delay 0
 timestep        0.001
