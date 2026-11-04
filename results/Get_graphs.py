@@ -25,7 +25,7 @@ simulation_colors = [
 
 
 temperatures = [i for i in [905, 910, 915, 935, 940, 945]]
-for w in range(1): //So that there are only 10 sims on one graph - easier to count
+for w in range(1): #So that there are only 10 sims on one graph - easier to count
 
   for temp in temperatures:
       plt.figure(figsize=(12, 7))
