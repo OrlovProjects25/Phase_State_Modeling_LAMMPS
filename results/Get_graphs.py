@@ -72,8 +72,8 @@ for w in range(1): //So that there are only 10 sims on one graph - easier to cou
       plt.axhline(y=shifted_line2, color='darkblue', linestyle='--', 
                   linewidth=2, label=f'Line 2 shifted ({temp}K): {shifted_line2:.4f}')
       
-      plt.xlabel('Time', fontsize=12)
-      plt.ylabel('Potential energy (per atom)', fontsize=12)
+      plt.xlabel('Time, fs', fontsize=12)
+      plt.ylabel('Potential energy (per atom), eV', fontsize=12)
       plt.ylim(-3.35, -3.10)
       plt.xlim(40000, 100000)
       plt.legend(loc='center right', bbox_to_anchor=(1.15, 0.5), fontsize=8)
