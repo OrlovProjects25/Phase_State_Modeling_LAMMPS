@@ -17,5 +17,7 @@ To get the graphs, run "Get_graphs.py"
 
 The code ("in.eim") for modeling the potential energies for the lines and the lines themselves can be viewed in "Lines"
 
+The code for getting a line of best fit for Probabilities(Temp) is in "Curve_fit.py"
 
+The graph of Probabilities(Temp) along with the value of the melting point is in "Plot_Probabilities(Temp).png"
 
