@@ -8,14 +8,14 @@ Using the probabilities at different temperatures for the material to become a l
 
 The code is written on LAMMPS internal language and Python.
 
-To get the files for specific temperatures (how system's energy per atom changes over time), run 'runMod.sh'
+To get the files for specific temperatures (how system's energy per atom changes over time), run "runMod.sh"
 
 The files for specific temperatures can be viewed in "results"
 
 The graphs for the simulations of temperatures can be viewed in "results/Graphs"
-To get the graphs, run "Get_graphs.py"
+To get the graphs, run "results/Get_graphs.py"
 
-The code ("in.eim") for modeling the potential energies for the lines and the lines themselves can be viewed in "Lines"
+The code ("Lines/in.eim") for modeling the potential energies for the lines and the lines themselves can be viewed in "Lines"
 
 The formula derived from the Boltzmann distribution that is used to get a line of best fit is in "Probabilities_over_temperature.pdf"
 
