@@ -1,4 +1,4 @@
-Theme: Modelling Phases of Metals with LAMMPS
+Theme: Modeling Phases of Metals with LAMMPS
 
 Created by: Aleksandr Orlov
 
